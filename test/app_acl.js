@@ -22,6 +22,7 @@ contract('App ACL', accounts => {
   const permissionsRoot = accounts[0]
   const unauthorized = accounts[1]
 
+  
   // Initial setup
   before(async () => {
     kernelBase = await Kernel.new(true) // petrify immediately
